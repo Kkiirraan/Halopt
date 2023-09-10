@@ -2,10 +2,9 @@ from django.shortcuts import render,redirect
 
 # Create your views here.
 def login_user(request):
-    return render(request,'main\login.html')
+    return render(request,'main/login.html')
 
 #User register view
 def register_user(request):
-    return render(request,'register.html')
-def login_user():
-    pass
+    return render(request,'main/register-1.html')
+
