@@ -82,6 +82,17 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'halopot',
+#         'ENFORCE_SCHEMA': False,  # Set to True if you want to enforce a schema
+#         'CLIENT': {
+#             'host': "mongodb+srv://lchalopot:DnRR84BQMfFxj8Ad@cluster0.o48cxip.mongodb.net/test?retryWrites=true&w=majority",
+           
+#         },
+#     }
+# }
 
 
 # Password validation
