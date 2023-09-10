@@ -20,7 +20,10 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('main.urls')),
+<<<<<<< HEAD
     path('',include('members.urls')),
     
     
+=======
+>>>>>>> 59273d9de9ba8cc7a2330e2b164b94ae6ac7ff5e
 ]
